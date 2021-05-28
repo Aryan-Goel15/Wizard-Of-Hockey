@@ -1,0 +1,64 @@
+*{
+    margin:0;
+}
+#navbar{
+    
+    width:100%;
+    background:dodgerblue;
+  
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+   
+}
+a{
+    font-size:40px;
+    color:white;
+    text-decoration:none;
+}
+ul li a:hover{border-bottom:5px solid white;}
+
+.profile{
+    background:url(/Images/Profile.jpg);
+    background-size:cover;
+    width: 100%;
+    height:800px;
+}
+.bio{
+background:rgb(104, 220, 255);
+
+}
+.bio p{
+    font-size:40px;
+    color:darkblue;
+}
+.bio h1{
+    font-size:200px;
+    color:rgb(107, 0, 139);
+}
+.a{
+    background:peachpuff;
+}
+.a h1{
+    font-size:150px;
+    color:red;
+}
+.a li{
+    font-size:40px;
+}
+.achievement{
+    background:greenyellow;
+    padding:10px;
+}
+.achievement h1{
+    font-size: 150px;
+}
+.achievement ul {
+    list-style:disc;
+}
+.achievement li{
+    font-size:40px;
+}
